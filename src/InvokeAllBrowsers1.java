@@ -14,12 +14,12 @@ public class InvokeAllBrowsers1 {
 		driver.get("https://www.spicejet.com/");		
 		driver.close();
 		
-//		System.setProperty("webdriver.gecko.driver", "C:\\WebDrivers_Temp\\geckodriver.exe");
-//		WebDriver driver1 = new FirefoxDriver();
-//		driver1.get("https://www.facebook.com/");
-//		String title1 = driver1.getTitle();
-//		System.out.println(title1);
-//		driver1.close();
+		System.setProperty("webdriver.gecko.driver", "C:\\WebDrivers_Temp\\geckodriver.exe");
+		WebDriver driver1 = new FirefoxDriver();
+		driver1.get("https://www.facebook.com/");
+		String title1 = driver1.getTitle();
+		System.out.println(title1);
+		driver1.close();
 		
 		
 //		System.setProperty("webdriver.ie.driver", "C:\\WebDrivers_Temp\\IEDriverServer.exe");
